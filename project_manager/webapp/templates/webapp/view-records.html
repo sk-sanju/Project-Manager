@@ -1,0 +1,30 @@
+{% extends "webapp/base.html" %}
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <strong >
+            <i class="fa-regular fa-user-circle"></i>&nbsp;
+            {{records.client_lastname|upper}}
+            {{records.client_firstname}}
+        </strong>
+        <br>
+        <br>
+        <p><strong>Client Contact: </strong>{{records.client_contact}}</p>
+        <hr>
+        <br>
+        <p><strong>ID: </strong>{{records.id}}</p>
+        <p><strong>Project Name: </strong>{{records.project_name}}</p>
+        <p><strong>Project Subject: </strong>{{records.project_subject}}</p>
+        <p><strong>Project Description: </strong>{{records.project_description}}</p>
+        <p><strong>Project Link: </strong>{{records.project_link}}</p>
+        <p><strong>Creation Date: </strong>{{records.creation_date}}</p>
+    </div>
+</div>
+<br>
+<a href="{% url 'dashboard' %}" class="btn btn-secondary">Return &nbsp; <i class="fa fa-person-walking-arrow-loop-left" aria-hidden="true"></i></a>
+&nbsp;
+<a href="{% url 'update-record' records.id %}" class="btn btn-info">Update &nbsp; <i class="fa fa-pen-nib" aria-hidden="true"></i></a>
+&nbsp;
+<a href="{% url 'delete-records' records.id %}" class="btn btn-danger">Delete &nbsp; <i class="fa fa-delete-left" aria-hidden="true"></i></a>
+
+{% endblock %}

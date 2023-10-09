@@ -7,11 +7,11 @@ django-crispy-forms==1.14.0
 docutils==0.20.1
 filelock==3.12.2
 idna==3.4
-Kivy==2.2.1
-kivy-deps.angle==0.3.3
-kivy-deps.glew==0.3.1
-kivy-deps.sdl2==0.6.0
-Kivy-Garden==0.1.5
+Kivy
+kivy-deps.angle
+kivy-deps.glew
+kivy-deps.sdl2
+Kivy-Garden
 platformdirs==3.10.0
 Pygments==2.16.1
 pypiwin32==223

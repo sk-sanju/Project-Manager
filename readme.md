@@ -1,0 +1,6 @@
+![SCREENSHOT](static\assets\screenshots\front.png)
+![SCREENSHOT](static\assets\screenshots\login.png)
+![SCREENSHOT](static\assets\screenshots\register.png)
+![SCREENSHOT](static\assets\screenshots\create.png)
+![SCREENSHOT](static\assets\screenshots\dashboard.png)
+![SCREENSHOT](static\assets\screenshots\view.png)
